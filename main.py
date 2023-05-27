@@ -6,8 +6,8 @@ import pickle
 
 dicts = [
     {'key1': 'los', 'key2': ['John', 'Harper'], 'key3': '+15550100482'},
-    {'key1': 23564, 'key2': '$', 'key3': 'debt'},
-    {'key1': 'Poor', 'key2': 'John', 'key3': True}
+    {'key1': '23564', 'key2': '$', 'key3': 'debt'},
+    {'key1': 'Poor', 'key2': 'John', 'key3': 'True'}
 ]
 
 with open('list_of_dicts.bin', 'wb') as dicts_file:
